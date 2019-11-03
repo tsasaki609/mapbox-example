@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "mapbox-example",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "git@github.com:tsasaki609/mapbox-example.git",
+  "author": "Takashi Sasaki <tsasaki609@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mapbox-gl": "^1.5.0",
+    "vue-mapbox": "^0.4.1"
+  },
+  "devDependencies": {
+    "@types/mapbox-gl": "^1.5.0",
+    "@vue/cli": "^4.0.5",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  }
+}
